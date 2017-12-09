@@ -1,0 +1,60 @@
+Main Procedure of Crud Project
+
+
+1. Making Folder
+	# asset
+		- css folder
+		- js folder
+		- font folder
+		- image folder
+	# App //contains all the functions
+		- Class
+		- Db Connection
+		- Package Class
+	# views //all kinds of file containing html code
+		- index.php
+		- Create.php
+		- Update.php
+		- Delete.php
+2. Making index file 
+	# CSS/js/font connecting
+	# view content like table button list slide 
+
+3. Making header and footer file separately and link them to index.php
+	using inclue/require
+
+4. Making Database Connection and tables neccessary
+	# Making tables
+
+5. Making class files
+
+6. Autoload class with composer
+
+7. Making Create file with Form 
+
+8. Making Create function in the class
+	# Database Query
+	# get data $_POST Method
+	# insert Data in database
+	# check 
+
+9. Read the file in index.php
+	# Database Query
+	# Loop while/foreach 
+
+10. Making update file and 
+	# pass id from index file to update file with $_GET Method.
+	# Database Query
+	# place data in the form with value attribute
+
+11. Making Update function in the class
+ 	# Database Query
+	# get data $_POST Method
+	# Update Data in database
+	# check 
+
+12. Making Delete button and delete function
+	# Delete Button
+	# Get Id with $_GET Method
+	# Database Query
+	# Check
